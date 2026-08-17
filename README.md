@@ -16,12 +16,6 @@ The work is divided into two complementary parts:
 2. **Real-time DSP pipeline**  
    The designed FIR filters are integrated into a Python/PyAudio application that processes microphone audio block by block and produces a metallic voice effect in real time.
 
-The complete processing chain is:
-
-<p align="center">
-  <img src="assets/pipeline.png" alt="Real-time FIR voice processing pipeline" width="850">
-</p>
-
 ---
 
 ## 1. FIR Filter Design
